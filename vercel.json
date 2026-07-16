@@ -1,0 +1,29 @@
+# See https://help.vercel.yaml for more information
+vercel:
+  buildCommand: "echo 'Build complete'
+  buildCommandTimeout: 1000
+  installCommand: echo 'Installing dependencies'
+  installCommandTimeout: 1000
+  outputDirectory: dist
+  devCommand: echo 'Starting dev server'
+  devCommandTimeout: 1000
+  framework: vite
+  frameworkVersion: 5.0.0
+  rootDirectory: .
+  outputDirectory: dist
+  installCommand: echo 'Installing dependencies'
+  installCommandTimeout: 1000
+  buildCommand: echo 'Build complete'
+  buildCommandTimeout: 1000
+  devCommand: echo 'Starting dev server'
+  devCommandTimeout: 1000
+  outputDirectory: dist
+  rootDirectory: .
+  framework: vite
+  frameworkVersion: 5.0.0
+  nodeVersion: 24.x
+  devCommandTimeout: 1000
+  buildCommandTimeout: 1000
+  installCommandTimeout: 1000
+  outputDirectory: dist
+  rootDirectory: .
